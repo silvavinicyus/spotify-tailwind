@@ -3,8 +3,7 @@ import { Footer } from '@/components/footer';
 import { PlaylistCard } from '@/components/playlist-card';
 import { PlaylistRow } from '@/components/playlist-row';
 import { Sidebar } from '@/components/sidebar';
-import { ChevronLeft, ChevronRight, Laptop2, LayoutList, LucideHome, LucideLibrary, LucideSearch, Maximize2, Mic2, Play, Repeat, Shuffle, SkipBack, SkipForward, Volume } from 'lucide-react';
-import Image from 'next/image';
+import { LucideChevronLeft, LucideChevronRight } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -15,11 +14,11 @@ export default function Home() {
         <main className="flex-1 p-6">
           <div className='flex items-center gap-4'>
             <button className='rounded-full bg-black/40 p-2'>
-              <ChevronLeft />
+              <LucideChevronLeft />
             </button>
 
             <button className='rounded-full bg-black/40 p-2'>
-              <ChevronRight />
+              <LucideChevronRight />
             </button>
           </div>
 
